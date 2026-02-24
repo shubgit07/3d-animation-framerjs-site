@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Porsche 911 GT3 RS Scrollytelling Experience
+
+A production-ready, single-page scrollytelling website for the Porsche 911 GT3 RS. This project is a portfolio-grade digital experience that showcases the car's engineering precision, motorsport emotion, and brutal minimalism through a cinematic, scroll-driven sequence.
+
+## Approach
+
+Built with a motorsport-first aesthetic and an engineering-worship vibe. There is no configurator or e-commerce fluff here—just unadulterated passion for the 992 GT3 RS, built for car lovers and designed to impress.
+
+The core technology uses canvas-based image sequence rendering paired with Framer Motion, ensuring smooth scrolling and high performance.
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **UI Library**: [React 19](https://react.dev/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+
+## Features
+
+- **Kinematic Scrollytelling**: High-fidelity scroll-bound animations rendering sequential images to a `<canvas>`.
+- **Motorsport Minimalism**: Clean, modern, track-focused visual aesthetic inspired by Porsche.
+- **Dynamic Text Overlays**: Text fades, pins, and transitions mapped directly to the user's scroll position, synced intuitively with the car's motion.
 
 ## Getting Started
 
@@ -16,21 +38,9 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
